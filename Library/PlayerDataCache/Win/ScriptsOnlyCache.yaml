@@ -1,0 +1,993 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - ChannelSlider
+    - ColourGrabber
+    - ColourToDmxChannel
+    - DMXbrain
+    - MixingBoard
+    - MultipleWebCam
+    - SingleWebCam
+    - SystemCore
+    - sliderActions
+    Sirenix.OdinInspector.Editor.dll:
+    - Sirenix.OdinInspector.Editor.GeneralDrawerConfig
+    - Sirenix.OdinInspector.Editor.ImportSettingsConfig
+    - Sirenix.OdinInspector.Editor.InspectorConfig
+    - Sirenix.Serialization.AOTGenerationConfig
+    Tayx.Graphy.dll:
+    - Tayx.Graphy.Advanced.G_AdvancedData
+    - Tayx.Graphy.Audio.G_AudioGraph
+    - Tayx.Graphy.Audio.G_AudioManager
+    - Tayx.Graphy.Audio.G_AudioMonitor
+    - Tayx.Graphy.Audio.G_AudioText
+    - Tayx.Graphy.Fps.G_FpsGraph
+    - Tayx.Graphy.Fps.G_FpsManager
+    - Tayx.Graphy.Fps.G_FpsMonitor
+    - Tayx.Graphy.Fps.G_FpsText
+    - Tayx.Graphy.GraphyDebugger
+    - Tayx.Graphy.GraphyManager
+    - Tayx.Graphy.Ram.G_RamGraph
+    - Tayx.Graphy.Ram.G_RamManager
+    - Tayx.Graphy.Ram.G_RamMonitor
+    - Tayx.Graphy.Ram.G_RamText
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.Timeline.Editor.dll:
+    - UnityEditor.Timeline.SequenceHierarchy
+    - UnityEditor.Timeline.TimelineWindow
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.Shadow
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+  sceneClasses:
+    Assets/Scenes/SampleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11160}
+    - Class: 114
+      Script: {instanceID: 11162}
+    - Class: 114
+      Script: {instanceID: 11182}
+    - Class: 114
+      Script: {instanceID: 11198}
+    - Class: 114
+      Script: {instanceID: 11250}
+    - Class: 114
+      Script: {instanceID: 11350}
+    - Class: 114
+      Script: {instanceID: 11386}
+    - Class: 114
+      Script: {instanceID: 11392}
+    - Class: 114
+      Script: {instanceID: 11394}
+    - Class: 114
+      Script: {instanceID: 11406}
+    - Class: 114
+      Script: {instanceID: 11584}
+    - Class: 114
+      Script: {instanceID: 11610}
+    - Class: 114
+      Script: {instanceID: 11666}
+    - Class: 114
+      Script: {instanceID: 11698}
+    - Class: 114
+      Script: {instanceID: 11822}
+    - Class: 114
+      Script: {instanceID: 11922}
+    - Class: 114
+      Script: {instanceID: 11968}
+    - Class: 114
+      Script: {instanceID: 12044}
+    - Class: 114
+      Script: {instanceID: 12092}
+    - Class: 114
+      Script: {instanceID: 12138}
+    - Class: 114
+      Script: {instanceID: 12280}
+    - Class: 114
+      Script: {instanceID: 12308}
+    - Class: 114
+      Script: {instanceID: 12440}
+    - Class: 114
+      Script: {instanceID: 12790}
+    - Class: 114
+      Script: {instanceID: 12820}
+    - Class: 114
+      Script: {instanceID: 12826}
+    - Class: 114
+      Script: {instanceID: 13046}
+    - Class: 114
+      Script: {instanceID: 13066}
+    - Class: 114
+      Script: {instanceID: 13190}
+    - Class: 114
+      Script: {instanceID: 13206}
+    - Class: 114
+      Script: {instanceID: 13220}
+    - Class: 114
+      Script: {instanceID: 13224}
+    - Class: 114
+      Script: {instanceID: 13240}
+    - Class: 114
+      Script: {instanceID: 13256}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1752ed2092162f016c19510c28a8b9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 01cf583b098841d55d473a748b59ec54
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SendCOM
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc4346a71a8df53a6b106f68ef3a190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 1f7917ac8bd6b5986f92e8d7ff9c5880
+    assemblyName: Tayx.Graphy.dll
+    namespaceName: Tayx.Graphy.Fps
+    className: G_FpsText
+  - hash:
+      serializedVersion: 2
+      Hash: c42672c997f8be6b1aa86a927ebea785
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b4fc42b020df4b67385e61ff21d513cc
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: fcea28c2f73cead47be54c616cbda7de
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ColourToDmxChannel
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: aeb62f729c52c814dec86c47dcac1471
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 499fd23433e68e265d153aa6b95d0047
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: de527a827c691243cb086e48255c61b1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DMXbrain
+  - hash:
+      serializedVersion: 2
+      Hash: 6c8a0ea6c6c6e6b549591969a2816472
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChannelSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: c478294b18ad4129197b16c5f565b128
+    assemblyName: Tayx.Graphy.dll
+    namespaceName: Tayx.Graphy
+    className: GraphyDebugger
+  - hash:
+      serializedVersion: 2
+      Hash: 234d407605354852c48e57df17c9a1c6
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: a62ba67447a32b7e776907d7e04fa817
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LightingManagerExample
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 61354782fc85cadd7d02f70e267a85ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ColourGrabber
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Sirenix.Utilities.dll
+    namespaceName: Sirenix.Utilities
+    className: ProjectPathFinder
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: ca47b9266be6fe740b2cc81e82e5e114
+    assemblyName: Tayx.Graphy.dll
+    namespaceName: Tayx.Graphy
+    className: GraphyManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 1103fb0758976355cdf9b7d5ce9cb7e0
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: e1ee2d6edc5c544555d337d300c56ac6
+    assemblyName: Tayx.Graphy.dll
+    namespaceName: Tayx.Graphy.Fps
+    className: G_FpsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 407cd073e918be72093f98306fb47a6f
+    assemblyName: Tayx.Graphy.dll
+    namespaceName: Tayx.Graphy.Advanced
+    className: G_AdvancedData
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Sirenix.Utilities.dll
+    namespaceName: Sirenix.Utilities
+    className: ProjectPathFinder
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 5cc439bf63c0539d39588e69465ac2ab
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc90e648ac06f43bdd31ac9fa8f4579
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 0774d09eef210111daef758416c60e71
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: sliderActions
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MixingBoard
+  - hash:
+      serializedVersion: 2
+      Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: fe007856606c9c1228a7f69412fd1fdb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SingleWebCam
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ReadCamTexture
+  - hash:
+      serializedVersion: 2
+      Hash: 7bdf56a97cc079197905c82e751ab3db
+    assemblyName: Tayx.Graphy.dll
+    namespaceName: Tayx.Graphy.Fps
+    className: G_FpsGraph
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: e95b5849b54502016fabc01a9ec4ad29
+    assemblyName: Tayx.Graphy.dll
+    namespaceName: Tayx.Graphy.Ram
+    className: G_RamText
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Sirenix.Utilities.dll
+    namespaceName: Sirenix.Utilities
+    className: ProjectPathFinder
+  - hash:
+      serializedVersion: 2
+      Hash: f84d945e5e1ca985698660fc26e9657f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 07b10ec6743430d549314b87e8e67f9d
+    assemblyName: Tayx.Graphy.dll
+    namespaceName: Tayx.Graphy.Audio
+    className: G_AudioManager
+  - hash:
+      serializedVersion: 2
+      Hash: f2503778758bbd5f67876697aacf87cb
+    assemblyName: Tayx.Graphy.dll
+    namespaceName: Tayx.Graphy.Audio
+    className: G_AudioGraph
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Sirenix.Utilities.Editor.dll
+    namespaceName: Sirenix.Utilities.Editor
+    className: InstanceCreatorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: c9a8b80298a116835b51ba1cf9284367
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 8bb36adc820600fce4f0d27a6da57939
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor
+    className: AcceptEULAWindow
+  - hash:
+      serializedVersion: 2
+      Hash: a38d0b420921353fcddf2e345856dfdd
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.Serialization
+    className: AOTGenerationConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor
+    className: AOTGenerationConfigEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 362f6d683348679954dbb2905ebe2b26
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor
+    className: AttributesExampleWindow
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor
+    className: CheckForUpdatesWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 99a55837ca4f304e463a96888097e6c1
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor
+    className: ColorPaletteManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor
+    className: ColorPaletteManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: b3dd72971a2be1166523ebfbcac9aa45
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor.Examples
+    className: DisabledInInlineEditorScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor
+    className: EditorOnlyModeConfigEditor
+  - hash:
+      serializedVersion: 2
+      Hash: a46792d288ced0feff736060aa84bb80
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor
+    className: EmittedAnimationCurveContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 3d6d1b47a0a259340099dff0b9289686
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor
+    className: EmittedGradientContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 40433e54b6d824281de758b705b179cc
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor.Examples
+    className: ExampleTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor
+    className: GeneralDrawerConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor
+    className: GeneralDrawerConfigEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor
+    className: GlobalSerializationConfigEditor
+  - hash:
+      serializedVersion: 2
+      Hash: baa211f503dd01830a992d9d43c05146
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor.Examples
+    className: HideMonoScriptScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 34efe1c0b34c9862d50358738802f121
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor
+    className: ImportSettingsConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 64f6e5f7424d773451f76ecf5c6172e6
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor
+    className: InspectorConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor
+    className: InspectorConfigEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 40c0c688729b3665d5dd607e280e2039
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor.Examples
+    className: MyDockableGameDashboard
+  - hash:
+      serializedVersion: 2
+      Hash: 2387f155951f71a75984aa0a5b3e04c0
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor.Examples
+    className: MyInlineScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 95b5b9bce0659a6d714ddb99fcfa1fe1
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor.Examples
+    className: MyScriptyScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor
+    className: OdinEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 8bb36adc820600fce4f0d27a6da57939
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor
+    className: OdinEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 8bb36adc820600fce4f0d27a6da57939
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor
+    className: OdinGettingStartedWindow
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor
+    className: OdinInspectorAboutWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 910c2e20eb8dd0c0a1cf12bfb0ae17e4
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor.Modules
+    className: OdinModuleConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor
+    className: PersistentContextCacheEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 3ce408690698f04b0de02c69370277a7
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.Utilities.Editor
+    className: SerializationDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: baa211f503dd01830a992d9d43c05146
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor.Examples
+    className: ShowMonoScriptScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor
+    className: SirenixPathLookupScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor
+    className: SirenixPathLookupScriptableObjectEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 362f6d683348679954dbb2905ebe2b26
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor
+    className: SirenixPreferencesWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 77190ece2636f22f4b07c95f309b985c
+    assemblyName: Sirenix.OdinInspector.Editor.dll
+    namespaceName: Sirenix.OdinInspector.Editor
+    className: StaticInspectorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 344a8c2e106a0a4e098e91a52e0af063
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: c1933cc0a2f4ff6eb13333347497beb3
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 6939772cb3ce775a8e8d99f332534491
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 059e947208fbd17dc6d5d52ada6a4827
+    assemblyName: Tayx.Graphy.dll
+    namespaceName: Tayx.Graphy.Ram
+    className: G_RamManager
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ff4fc3c8dc9ec52070bb11e430c6da53
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MultipleWebCam
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 994285ef78f1b8664eba320929ff05d0
+    assemblyName: Tayx.Graphy.dll
+    namespaceName: Tayx.Graphy.Ram
+    className: G_RamGraph
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Tayx.Graphy.dll
+    namespaceName: Tayx.Graphy.Fps
+    className: G_FpsMonitor
+  - hash:
+      serializedVersion: 2
+      Hash: 8cd1cbba27f3cb1717254f668e9e0d5a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4ef0f7d42cdb13479386e1f049c315aa
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 2aeeec1b1a144c469cd2d37776bc2315
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: aa88ae22474df55295327e4ee99e5a24
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Tayx.Graphy.dll
+    namespaceName: Tayx.Graphy.Ram
+    className: G_RamMonitor
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: ff9f6dc0f9591445d4193bbb7396df28
+    assemblyName: Tayx.Graphy.dll
+    namespaceName: Tayx.Graphy.Audio
+    className: G_AudioText
+  - hash:
+      serializedVersion: 2
+      Hash: 7072231382eb3c4871b3dd75ad0227e1
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 4c19117b72c897cd82801f0f9f36ca9c
+    assemblyName: Sirenix.Serialization.Config.dll
+    namespaceName: Sirenix.Serialization
+    className: GlobalSerializationConfig
+  - hash:
+      serializedVersion: 2
+      Hash: ee55962b168357486d6fa9e6d87d33c3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SystemCore
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Tayx.Graphy.dll
+    namespaceName: Tayx.Graphy.Audio
+    className: G_AudioMonitor
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  platform: 5
+  scenePathNames:
+  - Assets/Scenes/SampleScene.unity
+  playerPath: D:/Work/Slayd Tech/ColourRoom/Builds/ColourRoom - V03B - higher colorizer/ColourRoom
+    V01A.exe
